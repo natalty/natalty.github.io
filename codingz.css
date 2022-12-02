@@ -5,15 +5,15 @@ body{
 /*Font-Family*/
 @font-face {
     font-family: bos;
-    src: url(../natalty.github.io/SS.otf);
+    src: url(SS.otf);
 }
 @font-face {
     font-family: BOOKOS;
-    src: url(../natalty.github.io/BOOKOS.TTF);
+    src: url(BOOKOS.TTF);
 }
 @font-face {
     font-family: BAHN;
-    src: url(../natalty.github.io/BAHN.TTF);
+    src: url(BAHN.TTF);
 }
 
 
@@ -317,7 +317,7 @@ nav{
 }
 
 .lastpisc{
-    background-image: url(../natalty.github.io/ending.jpg);
+    background-image: url(ending.jpg);
   height: 334px;
   width: 589px;
   text-align: right;
