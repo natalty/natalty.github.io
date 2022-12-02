@@ -1,0 +1,357 @@
+body{
+    margin: 0;
+    background-color: white;
+}
+/*Font-Family*/
+@font-face {
+    font-family: bos;
+    src: url(../natalty.github.io/SS.otf);
+}
+@font-face {
+    font-family: BOOKOS;
+    src: url(../natalty.github.io/BOOKOS.TTF);
+}
+@font-face {
+    font-family: BAHN;
+    src: url(../natalty.github.io/BAHN.TTF);
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+nav .title{
+    display: flex;
+    font-size: 45px;
+    font-family: bohemian soul;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    padding-right: 45px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    padding-left: 846px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul li{
+    padding-right: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*Header*/
+
+header{
+    display: flex;
+    margin-left: 316px;
+    margin-top: 49px;
+}
+.menu{
+    margin: 200px 0 0 40px;
+    font-size: 59px;
+    font-family: bos;
+    margin-right: 40px;
+}
+.gambar1 img{
+    height: 501px;
+    margin-left: 80px;
+    margin-bottom: 200px;
+    padding-right: 100px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.slide2{
+    display: flex;
+    margin-left: 136px;
+    margin-top: 5px;
+}
+.gambar2 img{
+    height: 295px;
+    position: relative;
+    left: -35px;
+}
+.gambar2 h1{
+    margin-left: 74px;
+    font-family: bos;
+    color: #E8C3D1;
+}
+
+.text h1 {
+    font-size: 29px;
+    font-family: bos;
+    margin-left:31px;
+    color: #B6788F;
+}
+.text p{
+    font-size: 15px;
+    margin-left: -4px;
+    color: #CEA3B3;
+}
+
+
+.gambar2 h2 {
+    color: #CEA3B3;
+    font-family: BOOKOS;
+    font-size: 20px;
+    margin-left: 0;
+    text-align: center;
+}
+.AboutMe {
+    margin-left: -70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E8C3D1;
+    
+}
+.AboutMe h1{
+    margin-left: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #B6788F;
+    text-decoration: underline;
+}
+.AboutMe p{
+    margin-left: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #B099A2;
+    font-size: 19px;
+}
+
+.Education {
+    margin-left: -70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E8C3D1;
+}
+
+.Education h1{
+    margin-left: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #B6788F;
+    text-decoration: underline;
+}
+.Education p{
+    margin-left: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#B099A2;
+    font-size: 19px;
+}
+
+.AboutMe h4{
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #B099A2;
+    width: 300px;
+}
+
+.Hobb h1{
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #B6788F;
+    margin-right: 350px;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.Hobb img{
+    height: 60px;
+    margin-left: 20px;
+}
+.skills h1{
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #B6788F;
+    text-align: left;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.skills img{
+    height: 145px;
+    margin-left: 20px;
+}
+
+
+.slide3 {
+    display: flex;
+    margin-left: 133px;
+    padding-top: 200px;
+}
+.ke3 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 466px;
+    color: #B6788F;
+    text-decoration: underline;
+
+}
+.ke3 img{
+    height: 500px;
+    margin-left: -136px;
+}
+.ke3 p {
+    padding-left: 201px;
+    color: #CEA3B3;
+}
+
+.gambar4{
+    padding-top: 68px;
+}
+.gambar4 img{
+    margin-left: 423px;
+    margin-top: -31px;
+    padding-top: 27px;
+}
+.gambar4 img{
+    height: 250px;
+}
+.gambar4 p{
+    margin-left: 300px;
+    font-size: 14px;
+    margin-right: 49px;
+    padding-left: 217px;
+    padding-right: 47px;
+    color: #CEA3B3;;
+}
+.lilin{
+    display: flex;
+}
+
+.rumah{
+    margin-top: 218px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+      
+}
+.rumah p{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    position: absolute;
+    top: -30px;
+    left: 1044px;
+    z-index: 2;
+    right: 365px;
+    color: #B77B91;
+    text-decoration: underline;
+
+}
+.rumah img{
+    height:600px;
+
+}
+
+.poster img{
+    height: 648px;
+    margin-top: 255px;
+}
+
+.poster p {
+    height: 100px;
+    font-size: 20px;
+}
+
+.close h1 {
+    font-size: 50px;
+}
+
+.close p{
+    font-size: 30px;
+}
+.close h2{
+    font-size: 35px;
+}
+.close img{
+    height: 550px;
+}
+
+.kedua {
+    display: flex;
+    flex-direction: column;
+}
+
+.text_poster {
+    margin-left: 56%;
+    margin-top: -73vh;
+    margin-bottom: 48vh;
+    padding-right: 192px;
+    text-align: right;
+    color: #CEA3B3;
+}
+
+.text_poster h1{
+    font-size: 45px;
+    margin-right: 36px;
+    text-decoration: underline;
+    font-family: arial;
+    color: #B6788F;
+}
+
+.plast img{
+    padding-left: 50px;
+    height: 692px;
+}
+
+.contact h1{
+    color: #534E4E;
+    font-size: 76px;
+    margin-left: -132px;
+}
+.ololol{
+    display: flex;
+    justify-content:space-between ;
+    padding-top: 305px;
+}
+.contact .h1{
+    display: flex;
+}
+.sp{
+    color: white;
+}
+
+.lastpisc{
+    background-image: url(../natalty.github.io/ending.jpg);
+  height: 334px;
+  width: 589px;
+  text-align: right;
+  background-size: 180%;
+  background-position: left;
+  padding-top: 248px;
+  margin-top: 40px;
+  opacity: 64%;
+}
+
+.contact p{
+    font-size: 25px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-left: -130px;
+    margin-top: -70px;
+    color: #B6788F;
+    text-decoration: underline;
+}
+
+.isii {
+    margin-left: -127px;
+    margin-top: 157px;
+    font-family: BAHN;
+    color: #AE7B8E;
+}
+
+.isi {
+    margin-left: 78px;
+    margin-top: -143px;
+    margin-bottom: 145px;
+    color: #AE7B8E;
+    font-family: BAHN;
+}
+.group h2 {
+font-weight: inherit;
+  }
